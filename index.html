@@ -2,8 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Dogs on Holiday</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Autour+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
   </head>
   <body>
       <div>
@@ -18,22 +24,66 @@
               </ul>
             </nav>
         </header>
-        <div>
-            <h1>Dogs on Holiday</h1>
-            <p>Explore and make lasting memories with your four-legged best friend</p>
+        <div id="home">
+          <div class='jumbotron'>
+            <div class='container'>
+              <div class='row'>
+                <div class='col-sm8'>
+                  <h1>Dogs on Holiday</h1>
+                  <p>Explore and make lasting memories with your four-legged best friend</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <main>
           <section>
+            <div class="about">
+              <div class='container'>
+                <h2>About us</h2>
+                <p>Dogs on holiday was created with the aim of helping people who wish to explore some European holiday destinations without having to leave their four-legged barking friends behind. Whagtastic!</p>
+                <img src="img/Supernenas.png" alt="Pictures of us" width="200px" height="200px">
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="places">
+              <div class="container">
               <h2>Places to stay</h2>
-              <h3>Hungary</h3>
-              <p>With hot summer weather and lake Balaton, Hungary is a perfect place for a dog-friendly family holiday.</p>
-              <a href="places.html">Find out more</a>
-              <h3>Spain</h3>
-              <p>Enjoy a mixture of sunshine, vibrant culture and awesome gastronomy with your best friend in one of the most pet friendly countries in the EU.</p>
-              <a href="places.html">Find out more</a>
-              <h3>France</h3>
-              <p>If you are keen to take your dog with you on holiday, there are plenty of reasons to choose France.</p>
-              <a href="places.html">Find out more</a>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/Hungary.jpg" alt="picture of lake Balaton in Hungary">
+                      <div class="caption">
+                        <h3>Hungary</h3>
+                        <p>With hot summer weather and lake Balaton, Hungary is a perfect place for a dog-friendly family holiday.</p>
+                        <p><a class="btn btn-primary btn-lg" href="places.html" role="button">Find out more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/spain.jpg" alt="picture of Barcelona">
+                      <div class="caption">
+                        <h3>Spain</h3>
+                        <p>Enjoy a mixture of sunshine and vibrant culture with your best friend in one of the most pet-friendly countries in Europe. </p>
+                        <p><a class="btn btn-primary btn-lg" href="places.html" role="button">Find out more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/france.jpg" alt="picture of France">
+                      <div class="caption">
+                        <h3>France</h3>
+                        <p>If you are keen to take your dog with you on holiday, there are plenty of reasons to choose France.</p>
+                        <p><a class="btn btn-primary btn-lg" href="places.html" role="button">Find out more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
           <section>
               <h2>Hungary - Lake Balaton</h2>
@@ -81,13 +131,13 @@
               <p> Although it is located in Vincennes, right outside of Paris, it is one of the most popular pet friendly destination for dogs because the service they provide will surprise you and your pooch.They offer dogs to swim in the pool, massages, walk in the woods nearby and even training!</p>
               <a href=" https://www.soins-animal.com/fr/pensions/org/252/actuel-dogs-/vincennes">Book now</a>
               <h3>The Peninsula Paris</h3>
-              <p>The Peninsula Paris is located near Avenue Champs-Élysées. When you are traveling with dogs and they will be greeted with special welcome basket full of dog food, water, toy and a name tag. Also the best part is, the suites with private garden and terrace is available for you and pooch to relax together better.</p>
+              <p>The Peninsula Paris is located near Avenue Champs-&Eacute;lys&eacute;es. When you are traveling with dogs and they will be greeted with special welcome basket full of dog food, water, toy and a name tag. Also the best part is, the suites with private garden and terrace is available for you and pooch to relax together better.</p>
               <a href="https://www.booking.com/hotel/fr/the-peninsula-paris">Book now</a>
           </section>
 <!--New section with Things to do in Hungary-->
           <section>
               <h2>Dog Friendly Activities in Barcelona</h2>
-              <h3>Water park <i>Perros al Agua</i></h3>
+              <h3>Water park Perros al Agua</h3>
               <p>Take your dog for a swim in one of the largest pet friendly swimming pools in Spain. There is also shallow water for small dogs and a restaurant for humans</p>
               <h3>Parc Guell</h3>
               <p>You can bring your dog into one of the best known urban parks in Barcelona designed by Gaudi and enjoy lots of paths and garderns with your best friend</p>
@@ -96,26 +146,84 @@
           </section>
 <!--New section with Things to do in France-->
           <section>
-            <div>
-              <h2>Tips</h2>
-                <ul>
+            <div class="tips">
+             <div class='container-fluid'>
+               <h2>Tips</h2>
 
-                  <li><h3>Plan in advance</h3>
-                  <p>Especially during summer season, accomodations can get fully booked fairly quickly. The Department for Environment, Food & Rural Affairs and Animal and Plant Health Agency recommends to have all procedures done by at least 4 months in advance. Don&#8217;t forget to check rules and local regulations that apply for dogs on public places at your holiday destination.</p></li>
-                  <li><h3>Get a pet passport</h3>
-                  <p>Check with your vet that your pet is up-to date on all the necessary vaccines and procedures based on your destination. Your vet should be able to issue a pet passport. If not, you can contact the Animal & Plant health Agency for more information on how obtain one.</li>
-                  <li><h3>Pet&#8217;s health insurance</h3>
-                  <p>Don&#8217;t forget to check with your pet insurance whether your pet will be covered at your holiday destination. Some pet insurances offer the option to purchase additional cover for overseas trips.</li>
-                  <li><h3>Transporting your pet</h3>
-                  <p>Decide whether your pet will be travelling by air, ferry, train or car and carefully consider what will be involved with your pet during the journey. Make sure your pet will be comfortable, safe and with water and food available if need be. Always do a trial weekend first to ensure the environment will work out well for your dog.</li>
-                  <li><h3>Assistance dogs</h3>
-                  <p>Different rules apply for travelling with assistance dogs. Always check with your airline in advance if you are planning to travel with your dog by air. For example, assistance dogs can travel in the cabin free of charge with British Airways.</li>
-                </ul>
+               <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="img/Slide1.jpg" alt="Plan in advance">
+                       <div class="carousel-caption">
+                         <h3>Plan in advance</h3>
+                         <p>Especially during summer season, accomodations can get fully booked fairly quickly. The Department for Environment, Food & Rural Affairs and Animal and Plant Health Agency recommends to have all procedures done by at least 4 months in advance. Don&#8217;t forget to check rules and local regulations that apply for dogs on public places at your holiday destination.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/Slide2.jpg" alt="Pet passport">
+                        <div class="carousel-caption">
+                          <h3>Pet passport</h3>
+                          <p>Check with your vet that your pet is up-to date on all the necessary vaccines and procedures based on your destination. Your vet should be able to issue a pet passport. If not, you can contact the Animal & Plant health Agency for more information on how obtain one.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/Slide3.jpg" alt="Pet insurance">
+                        <div class="carousel-caption">
+                          <h3>Pet&#8217;s health insurance</h3>
+                          <p>Don&#8217;t forget to check with your pet insurance whether your pet will be covered at your holiday destination. Some pet insurances offer the option to purchase additional cover for overseas trips.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/Slide4.jpg" alt="Transporting your pet">
+                        <div class="carousel-caption">
+                        <h3>Transporting your pet</h3>
+                        <p>Decide whether your pet will be travelling by air, ferry, train or car and carefully consider what will be involved with your pet during the journey. Make sure your pet will be comfortable, safe and with water and food available if need be. Always do a trial weekend first to ensure the environment will work out well for your dog.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/Slide5.jpg" alt="Assistance dogs">
+                        <div class="carousel-caption">
+                        <h3>Assistance dogs</h3>
+                        <p>Different rules apply for travelling with assistance dogs. Always check with your airline in advance if you are planning to travel with your dog by air. For example, assistance dogs can travel in the cabin free of charge with British Airways.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <i class="fa fa-chevron-left fa-2x"></i>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <i class="fa fa-chevron-right fa-2x"></i>
+                    <span class="sr-only">Next</span>
+                  </a>
+             </div>
             </div>
+          </div>
         </section>
         </main>
         <footer>
+          <nav class="navbar navbar-debault navbar-static-bottom">
+        <div class="container">
+              <div class="text-center center-block">
+              <a href="https://www.facebook.com"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            </div>
+          </nav>
         </footer>
       </div>
+    </div>
   </body>
 </html>
