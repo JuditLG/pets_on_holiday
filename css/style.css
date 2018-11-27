@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     color: blue;
     font-family: Helvetica;
@@ -23,4 +24,103 @@ h1 {
   text-shadow: 3px 4px 5px #082b34;
   font-size:25px;
   color:#281010;
+
+{
+  background-color: #eee;
+}
+h2{
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+
+.jumbotron {
+  padding-top: 20px;
+  padding-bottom: 400px;
+  min-width: 600px;
+  margin-bottom: 0;
+  background-image: url('../img/Dog car window.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+#home H1{
+font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+  margin-bottom: 0.5em;
+  margin-top:1.80em;
+  margin-left: 150px;
+  font-style: normal;
+  text-align: left;
+  text-shadow: 3px 4px 5px #eee;
+
+}
+#home p{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  font-color: black;
+  margin-bottom: 1em;
+  margin-left: 170px;
+  font-style: normal;
+  text-align: center;
+  max-width: 400px;
+  text-shadow: 1.5px 2px 2.5px #eee;
+}
+.about{
+  text-align: center;
+  margin-top: auto;
+  max-width: 600em;
+  margin-bottom: 2em;
+}
+p{
+  padding-top:15px;
+  padding-bottom: auto;
+  line-height: 1.5;
+  font-weight: normal;
+  font-size: 18px;
+
+}
+.places{
+  margin-top: 2em;
+  background-image:url('../img/dog on beach 2.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.thumbnail {
+height: 500px;
+width: 100%;
+}
+
+.thumbnail img {
+  height:250px;
+  width: 100%;
+}
+
+#myCarousel {
+  background-color: #343148
+  margin-top: 20px;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.tips{
+	margin: 20px;
+}
+.fa-chevron-left,.fa-chevron-right{
+padding-top:125%;
+}
+#lab_social_icon_footer {
+  padding: 20px 0;
+  background-color: #dedede;
+}
+
+#lab_social_icon_footer a {
+  color: #333;
+>>>>>>> e86da762a404df5675b33f183ace595780bf8ebf
 }
