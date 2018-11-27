@@ -1,6 +1,26 @@
-h1{
-  color: blue;
-  font-family: Helvetica;
-  size: 16px;
+h1 {
+    color: blue;
+    font-family: Helvetica;
+    size: 16px;
+}
 
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	background-image: none;
+	box-shadow: none;
+}
+.navbar-default .navbar-nav>li>a {
+   text-transform: uppercase;
+   font-size:11px;
+   color:#281010;
+}
+.navbar-default .navbar-brand {
+  text-transform: uppercase;
+  color: #CEF0D4;
+  font-family: 'Barlow Condensed', cursive;
+  font-weight: normal;
+  text-shadow: 3px 4px 5px #082b34;
+  font-size:25px;
+  color:#281010;
 }
