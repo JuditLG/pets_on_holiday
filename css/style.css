@@ -2,36 +2,32 @@ body
 {
   background-color: #eee;
 }
-h1 {
-    color: blue;
-    font-family: Helvetica;
-    size: 16px;
-}
-h2 {
+h2{
   text-align: center;
   padding-top: 2em;
   padding-bottom: 1.5em;
 }
+
 .navbar-default {
-	background-color: transparent;
-	border-color: transparent;
-	background-image: none;
-	box-shadow: none;
+    background-color: transparent;
+    border-color: transparent;
+    background-image: none;
+    box-shadow: none;
 }
 .navbar-default .navbar-nav>li>a {
-   text-transform: uppercase;
-   font-size:11px;
-   color:#281010;
+  text-transform: uppercase;
+  font-size:14.5px;
+  color:#281010;
 }
 .navbar-default .navbar-brand {
-  text-transform: uppercase;
-  color: #CEF0D4;
-  font-family: 'Barlow Condensed', cursive;
-  font-weight: normal;
-  text-shadow: 3px 4px 5px #082b34;
-  font-size:25px;
-  color:#281010;
-
+ text-transform: uppercase;
+ color: #CEF0D4;
+ font-family: 'Rouge Script', cursive;
+ font-weight: normal;
+ text-shadow: 1px 1px 2px #082b34;
+ font-size:16px;
+ color:#281010;
+}
 
 
 .jumbotron {
@@ -122,5 +118,4 @@ padding-top:125%;
 
 #lab_social_icon_footer a {
   color: #333;
->>>>>>> e86da762a404df5675b33f183ace595780bf8ebf
 }
