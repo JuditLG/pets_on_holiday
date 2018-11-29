@@ -45,7 +45,7 @@ h2 {
 }
 
 .scrolled{
-  background-color: dodgerblue;
+  background-color: rgba(0, 0, 0, 0.8);
   transition: 0.3s;
 }
 

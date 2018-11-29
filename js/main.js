@@ -9,7 +9,6 @@ $(function() {
             header.removeClass("scrolled");
         }
     });
-
 });
 
 $(document).ready(function(){
@@ -32,3 +31,6 @@ $(document).ready(function(){
     	$("#myCarousel").carousel(1);
     });
     $(".slide-three").click(function(){
+      $("#myCarousel").carousel(2);
+      });
+    });
