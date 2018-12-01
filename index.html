@@ -14,22 +14,24 @@
     <script src="js/main.js"></script>
   </head>
   <body>
-      <div>
-        <header>
-          <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-           <div class="navbar-header">
-             <a class="navbar-brand" href="index.html"><a class="navbar-brand" href="index.html"><span><img alt "Brand" class="img-responsive2" src="img/brand5.png"></span>Dogs on holiday</a>
-           </div>
-             <ul class="nav navbar-nav navbar-right">
-               <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-               <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
-               <li class="nav-item"><a class="nav-link active" href="places.html">Places to stay</a></li>
-               <li class="nav-item"><a class="nav-link active" href="explore.html">Things to do by country</a></li>
-               <li class="nav-item"><a class="nav-link active" href="tips.html">Tips</a></li>
-             </ul>
-         </div>
-       </nav>
-        </header>
+      <!-- navigation bar -->
+        <div>
+          <header>
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+               <div class="navbar-header">
+                 <a class="navbar-brand" href="index.html"><a class="navbar-brand" href="index.html"><span><img alt "Brand" class="img-responsive2" src="img/brand5.png"></span>Dogs on holiday</a>
+               </div>
+               <ul class="nav navbar-nav navbar-right">
+                 <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                 <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                 <li class="nav-item"><a class="nav-link active" href="places.html">Places to stay</a></li>
+                 <li class="nav-item"><a class="nav-link active" href="explore.html">Things to do by country</a></li>
+                 <li class="nav-item"><a class="nav-link active" href="tips.html">Tips</a></li>
+               </ul>
+            </nav>
+          </header>
+        </div>
+      <!-- navigation bar -->
         <div id="home">
           <div class='jumbotron'>
             <div class='container'>
@@ -44,14 +46,16 @@
         </div>
         <main>
           <section>
-            <div class="about">
+            <div class="blockquote">
               <div class='container'>
-                <h2>About us</h2>
-                <p>Dogs on holiday was created with the aim of helping people who wish to explore some European holiday destinations without having to leave their four-legged barking friends behind. Whagtastic!</p>
-                <img src="img/Supernenas.png" alt="Pictures of us" width="200px" height="200px">
+                <blockquote>
+                The journey of life is sweeter when traveled with a dog.
+                <footer><cite>Bridget Willoughby</cite></footer>
+                </blockquote>
               </div>
             </div>
           </section>
+          <!-- Short introduction of places to stay -->
           <section>
             <div class="places">
               <div class="container">
@@ -59,7 +63,7 @@
                 <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                      <img src="img/Hungary.jpg" alt="picture of lake Balaton in Hungary">
+                      <img src="img/Hungary.jpg" alt="Picture of lake Balaton in Hungary">
                       <div class="caption">
                         <h3>Hungary</h3>
                         <p>With hot summer weather and lake Balaton, Hungary is a perfect place for a dog-friendly family holiday.</p>
@@ -91,66 +95,44 @@
               </div>
             </div>
           </section>
-          <section>
-              <h2>Hungary - Lake Balaton</h2>
-              <p>Lake Balaton and its region is a major holiday destination with beaches, volcanic hills, wineries and lively coastal towns.</p>
-              <p>There is plenty of accommodation to choose from, depending on whether you are looking to stay in a hotel with wellness facilities or staying in a private, self-contained apartment.</p>
+          <!-- /Short introduction of places to stay -->
+          <!-- Short introduction of things to do -->
+          <div id="activities">
+            <div class='col-container'>
+              <div class='row'>
+                <div class='col-sm-12'>
+                  <section>
+                      <h2>Hungary - Lake Balaton</h2>
+                      <p>Lake Balaton and its region is a major holiday destination with beaches, volcanic hills, wineries and lively coastal towns.There is plenty of accommodation to choose from, depending on whether you are looking to stay in a hotel with wellness facilities or staying in a private, self-contained apartment.</p>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div class='col-container'>
+              <div class="row">
+                <div class="col-sm-6">
+                  <h4>Balatonfoldvar</h4>
+                  <p>Balatonfoldvar opened a dog-friendly beach this summer, allowing you to enjoy the cooling down in the water with your dog on a hot summer day. Szandra Haz, a self-contained apartment house with garden and swimming pool is a short drive from the dog-friendly beach.</p>
+                  <p><a class="btn btn-primary btn-lg" href="https://revngo.com/szandra-haz-balatonfoldvar" target="_blank" role="button">Book now</a></p>
+                </div>
+                <div class="col-sm-6">
+                   <img src="img/Balatonfoldvar.jpg" class="img-responsive img-rounded" alt="Picture of Balatonfoldvar">
+                </div>
+              </div>
+            </div>
+            <div class='col-container'>
+              <div class="row">
+                  <div class="col-sm-6">
+                    <img src="img/Fonyod.jpg" class = "img-responsive img-rounded" alt="Picture of Fonyod">
+                  </div>
+                  <div class="col-sm-6">
+                    <h4>Fonyod</h4>
+                    <p>Fonyod also offers a dog-friendly beach, where you can swim with your dog and enjoy the sunshine. Tappancs (Paws) apartment house is within a short walking distance, and needless to say, dogs are welcome.</p>
+                    <p><a class="btn btn-primary btn-lg" href="https://revngo.com/tappancs-apartman-fonyod" target="_blank" role="button">Book now</a></p>
+                </div>
           </section>
-          <section>
-              <h2>Our recommendations</h2>
-              <h3>Balatonfoldvar</h3>
-              <p>Balatonfoldvar opened a dog-friendly beach this summer, allowing you to enjoy the cooling down in the water with your dog on a hot summer day. Szandra Haz, a self-contained apartment house with garden and swimming pool is a short drive from the dog-friendly beach.</p>
-              <a href="https://revngo.com/szandra-haz-balatonfoldvar" target="_blank">Book now</a>
-              <h3>Fonyod</h3>
-              <p>Fonyod also offers a dog-friendly beach, where you can swim with your dog and enjoy the sunshine. Tappancs (Paws) apartment house is within a short walking distance, and needless to say, dogs are welcome.</p>
-              <a href="https://revngo.com/tappancs-apartman-fonyod" target="_blank">Book now</a>
-              <h3>Keszthely</h3>
-              <p>While there is no dog-friendly beach in Keszthely, Abbazia Club Hotel offers dog-friendly accommodation with wellness facilities. Dog-supervising services are also available if you wish to visit tourist attractions, such as the Festetics Palace or the Marzipan Museum, where dogs are not allowed - what a shame!</p>
-              <a href="https://revngo.com/abbazia-club-hotel-keszthely" target="_blank">Book now</a>
-          </section>
-          <section>
-            <h2>Spain - Costa Maresme</h2>
-            <p>One of the most beautiful coastal areas in Europe with spectacular award-winning beaches and a vibrant culture.</p>
-          </section>
-          <section>
-             <h2>Our recommendations</h2>
-             <h3>Bell Soll Campsite</h3>
-             <p>Right in the seafront of Pineda de Mar, 49 km from Barcelona, Bell Soll Campsite is set just few minutes&#8217; walk away from a sandy pet-friendly beach open all year around and without time restrictions. The site has an outdoor pool, a playground for kids and communal barbecues. Just off site in Pineda de Mar you can find a wide variety of restaurants, tapas bars and natural parks to visit.</p>
-             <a href="http://www.campingbellsol.com/en/" target="_blank">Book now</a>
-             <h3>Hotel Subur Maritim</h3>
-             <p>Hotel Subur Maritim is a 4-star pet-friendly hotel situated in the charming town of Sitges.  The accommodation features a large sea-view terrace, air conditioning in all rooms and an outdoor swimming pool. The hotel is 5.9 Km from Cala Vallcarca, one of the most popular pet-friendly beaches in the province of Barcelona. It is surrounded by natural parks and is open all year around and without time restrictions.</p>
-             <a href="http://www.suburhotels.com/subur-maritim/eng/sitges.html" target="_blank">Book now</a>
-             <h3>Lyon Hotel</h3>
-             <p> Lyon hotel is a bright and cozy option located in Barcelona just a 3-minutes walk from the tube station <i>Barceloneta</i>. Ideal if you want to move around fast with your dog in Barcelona. Next to the hotel there is a park called Parc de la Barceloneta which has a doggy play area.</p>
-             <a href="http://www.hotellyonbarcelona.com" target="_blank">Book now</a>
-          </section>
-          <section>
-            <h2>Paris</h2>
-            <p>Paris, the City of Light, evokes romantic emotions in anyone who has ever visited. There is plenty to do in Paris to satisfy pet lovers. Is one of the best destinations in Europe with more than 1,000 pet friendly establishments, hotels and appartments.</p>
-          </section>
-          <section>
-              <h2>Our recommendations</h2>
-              <h3>H&#244;tel de Crillon</h3>
-              <p>It is a historic luxury hotel. Located in 8th arrondissement, it is in the center of center in Paris. If you are staying in one of their pet friendly rooms while traveling with dogs, your pooch might even be treated better than you.</p>
-              <a href="https://www.booking.com/hotel/fr/de-crillon-paris">Book now</a>
-              <h3>Actuel dogs</h3>
-              <p> Although it is located in Vincennes, right outside of Paris, it is one of the most popular pet friendly destination for dogs because the service they provide will surprise you and your pooch.They offer dogs to swim in the pool, massages, walk in the woods nearby and even training!</p>
-              <a href=" https://www.soins-animal.com/fr/pensions/org/252/actuel-dogs-/vincennes">Book now</a>
-              <h3>The Peninsula Paris</h3>
-              <p>The Peninsula Paris is located near Avenue Champs-&Eacute;lys&eacute;es. When you are traveling with dogs and they will be greeted with special welcome basket full of dog food, water, toy and a name tag. Also the best part is, the suites with private garden and terrace is available for you and pooch to relax together better.</p>
-              <a href="https://www.booking.com/hotel/fr/the-peninsula-paris">Book now</a>
-          </section>
-<!--New section with Things to do in Hungary-->
-          <section>
-              <h2>Dog Friendly Activities in Barcelona</h2>
-              <h3>Water park Perros al Agua</h3>
-              <p>Take your dog for a swim in one of the largest pet friendly swimming pools in Spain. There is also shallow water for small dogs and a restaurant for humans</p>
-              <h3>Parc Guell</h3>
-              <p>You can bring your dog into one of the best known urban parks in Barcelona designed by Gaudi and enjoy lots of paths and garderns with your best friend</p>
-              <h3>Mercat de Sant Josep de la Boqueria</h3>
-              <p> The most popular food market in Barcelona is pet friendly! Come to <i>la Boqueria</i> with your best friend and explore the market with the freshest food in Barcelona</p>
-          </section>
-<!--New section with Things to do in France-->
+          <!-- Short introduction of things to do -->
+          <!-- Tips on taking your dog abroad -->
           <section>
             <div class="tips">
              <div class='container-fluid'>
