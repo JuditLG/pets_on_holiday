@@ -223,6 +223,7 @@ height: 400px;
         font-weight: bolder;
     }
 
+/*Things to do - home page*/
 
 #activities {
   font-family: 'Barlow Condensed', sans-serif;
@@ -232,25 +233,25 @@ height: 400px;
 }
 
 #activities .img-rounded {
-  width: 700px;
-  height: 400px;
+  width: 600px;
+  height: 350px;
+  align-content: center;
   }
 
 #activities h2 {
-    text-transform: uppercase;
-    font-size: 53px;
-    padding-top: 2em;
-    padding-bottom: 1.5em;
+    font-size: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 
   }
 
 #activities h4 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #activities p {
 font-size: 20px;
-line-height: 38px;
+line-height: 30px;
 padding-top: 2em;
 padding-bottom: 1em;
 padding-left: 1em;
@@ -258,7 +259,7 @@ padding-right: 1em;
 }
 
 #activities .col-container {
-  height: 610px;
+  height: 350px;
 
 }
 
