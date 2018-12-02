@@ -7,6 +7,16 @@ h2 {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 1.5em;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+p{
+  font-family: 'Barlow Condensed', sans-serif;
+  padding-top:15px;
+  padding-bottom: auto;
+  line-height: 1.5;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 
@@ -62,6 +72,13 @@ h2 {
     background-image: none;
     box-shadow: none;
     height: 55px;
+}
+
+.footer {
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+
 }
 .navbar .navbar-nav>ul {
     margin-right: 30px;
@@ -145,18 +162,10 @@ blockquote{
 
 blockquote>footer{
   font-family: 'Barlow Condensed', sans-serif;
-  fonnt-color: black;
+  color: black;
   font-size: 30px;
   text-align: center;
   margin-top: 3em;
-}
-p{
-  padding-top:15px;
-  padding-bottom: auto;
-  line-height: 1.5;
-  font-weight: normal;
-  font-size: 18px;
-
 }
 .places{
   margin-top: 2em;
@@ -191,13 +200,27 @@ width: 100%;
 .fa-chevron-left,.fa-chevron-right{
 padding-top:125%;
 }
-#lab_social_icon_footer {
-  padding: 20px 0;
-  background-color: #dedede;
+
+#footer .navbar-default {
+ background-color: transparent;
+ border-color: transparent;
+ background-image: none;
+ box-shadow: none;
+
+ }
+#touch h4{
+margin-top: 25%;
+margin-bottom: 70px;
 }
 
-#lab_social_icon_footer a {
-  color: #333;
+#touch{
+margin-left: 10%;
+margin-right: 10%;
+}
+
+
+#social a{
+  color: #1D7A8C;
 }
 
 /* Places */
@@ -238,7 +261,7 @@ height: 400px;
 
 }
 
-#places .btn-primary {
+.btn-primary {
       background: rgba(29, 122,140);
       text-transform: uppercase;
       font-family: 'Barlow Condensed', sans-serif;
@@ -253,9 +276,9 @@ height: 400px;
 
     }
 
-#places .btn-primary:hover
+.btn-primary:hover
     {
-        box-shadow: 0px 0px 40px #000000;
+        box-shadow: 0px 0px 40px #1D7A8C;
         z-index: 2;
         -webkit-transition: all 100ms ease-in;
         -webkit-transform: scale(1.2);
@@ -266,7 +289,7 @@ height: 400px;
         transition: all 40ms ease-in;
         transform: scale(1.2);
         background-color: rgba(254, 254, 254, 0.5);
-        color: rgba(0, 0, 0);
+        color: #1D7A8C;
         font-weight: bolder;
     }
 
@@ -285,15 +308,16 @@ height: 400px;
   position: relative;
   }
 
-#activities h2 {
+h2 {
     font-size: 40px;
     padding-top: 1em;
     padding-bottom: 1em;
-
+    font-family: 'Barlow Condensed', sans-serif;
   }
 
-#activities h4 {
+h4 {
   font-size: 30px;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 #activities p {
@@ -309,21 +333,6 @@ padding-right: 1em;
   height: 350px;
 
 }
-
-#activities .btn-primary {
-      background: rgba(29, 122,140);
-      text-transform: uppercase;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size:19px;
-      color:#FFFFFF;
-      font-weight: normal;
-      border: none;
-      letter-spacing: 0.04em;
-      position: relative;
-      bottom: 5px;
-      text-align: center;
-
-    }
 
 /* About Us*/
 
