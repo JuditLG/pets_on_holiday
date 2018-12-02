@@ -8,6 +8,7 @@ h2 {
   padding-top: 2em;
   padding-bottom: 1.5em;
   font-family: 'Barlow Condensed', sans-serif;
+  font-size: 53px
 }
 h3{
   font-family: 'Barlow Condensed', sans-serif;
@@ -221,23 +222,45 @@ padding-top:125%;
  border-color: transparent;
  background-image: none;
  box-shadow: none;
+}
+
+ .countries{
+ margin-left: 5%;
+ margin-right: 5%;
+ }
+ .countrypic img{
+  margin-left: 15%;
+  margin-right: 15%;
+ }
+ .countryspn img{
+ margin-left: 25%;
+ margin-right: 10%;
 
  }
+
 #touch h4{
 margin-top: 25%;
-margin-bottom: 70px;
+margin-bottom:70px;
 }
 
 #touch{
 margin-left: 10%;
 margin-right: 10%;
+margin-top: 25%;
+margin-bottom: 70px;
 }
 
-
-#social a{
-  color: #1D7A8C;
+#socialmedia{
+padding-top: 20px;
 }
 
+#socialmedia a{
+color: #1D7A8C;
+}
+
+button{
+margin-top: 10%;
+}
 /* Places */
 
 #places {
@@ -277,7 +300,7 @@ height: 400px;
 }
 
 .btn-primary {
-      background: rgba(29, 122,140);
+      background: #1D7A8C;
       text-transform: uppercase;
       font-family: 'Barlow Condensed', sans-serif;
       font-size:19px;
@@ -324,9 +347,8 @@ height: 400px;
   }
 
 #activities h2 {
-    font-size: 40px;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 
   }
 
