@@ -9,6 +9,14 @@ h2 {
   padding-bottom: 1.5em;
   font-family: 'Barlow Condensed', sans-serif;
 }
+h3{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 30px;
+}
+h4{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+}
 
 p{
   font-family: 'Barlow Condensed', sans-serif;
@@ -308,16 +316,15 @@ height: 400px;
   position: relative;
   }
 
-h2 {
+#activities h2 {
     font-size: 40px;
     padding-top: 1em;
     padding-bottom: 1em;
-    font-family: 'Barlow Condensed', sans-serif;
+
   }
 
-h4 {
+#activities h4 {
   font-size: 30px;
-  font-family: 'Barlow Condensed', sans-serif;
 }
 
 #activities p {
