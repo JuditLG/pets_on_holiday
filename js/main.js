@@ -11,6 +11,7 @@ $(function() {
     });
 });
 
+
 $(document).ready(function(){
     // Activate carousel
     $("#myCarousel").carousel();
