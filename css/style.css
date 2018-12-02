@@ -9,6 +9,7 @@ h2 {
   padding-bottom: 1.5em;
 }
 
+
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -52,7 +53,54 @@ h2 {
   transition: 0.3s;
 }
 
-.jumbotron {
+/* /Navbar home page */
+
+/* Navbar */
+.navbar {
+    background-color: rgba(29, 122,140);
+    border-color: rgba(29, 122,140);
+    background-image: none;
+    box-shadow: none;
+    height: 55px;
+}
+.navbar .navbar-nav>ul {
+    margin-right: 30px;
+    width: 100%;
+    background-color: #999;
+    height: 20px;
+}
+.navbar .navbar-nav>li>a {
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size:19px;
+  color:#FFFFFF;
+  margin-right:10px;
+}
+.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: rgba(254, 254, 254, 0.5);
+  color: rgba(0, 0, 0);
+  font-weight: bolder;
+}
+.navbar .navbar-brand {
+ text-transform: uppercase;
+ color: #FFFFFF;
+ font-family: 'Barlow Condensed', sans-serif;
+ font-weight: bolder;
+ font-size:21px;
+}
+.navbar-brand img {
+  position: relative;
+  height: 40px;
+  margin: 1px;
+}
+
+.scrolled{
+  background-color: rgba(29, 122,140, 0.9);
+  transition: 0.3s;
+}
+
+
+#home .jumbotron {
   padding-top: 20px;
   padding-bottom: 400px;
   min-width: 600px;
@@ -62,7 +110,7 @@ h2 {
   background-attachment:fixed;
 }
 
-#home H1{
+#home h1{
 font-family: 'Barlow Condensed', sans-serif;
   font-weight: bolder;
   font-size: 80px;
@@ -72,8 +120,8 @@ font-family: 'Barlow Condensed', sans-serif;
   font-style: normal;
   text-align: left;
   text-shadow: 3px 4px 5px #eee;
-
 }
+
 #home p{
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: bolder;
@@ -228,25 +276,25 @@ height: 400px;
 #activities {
   font-family: 'Barlow Condensed', sans-serif;
   text-align: center;
-  padding-top: 2em;
-  padding-bottom: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-#activities .img-rounded {
-  width: 600px;
-  height: 350px;
-  align-content: center;
+#activities .img-responsive {
+  max-width:60%;
+  max-height:60%;
+  position: relative;
   }
 
 #activities h2 {
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 1em;
     padding-bottom: 1em;
 
   }
 
 #activities h4 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #activities p {
@@ -273,7 +321,80 @@ padding-right: 1em;
       border: none;
       letter-spacing: 0.04em;
       position: relative;
-      bottom: 15px;
+      bottom: 5px;
       text-align: center;
 
     }
+
+/* About Us*/
+
+#about .img-circle {
+  width: 200px;
+  height: 200px;
+}
+
+
+#about h1{
+font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+  margin-bottom: 0.5em;
+  margin-top:1.80em;
+  margin-left: 150px;
+  font-style: normal;
+  text-align: left;
+  text-shadow: 3px 4px 5px #eee;
+}
+
+
+
+#about .jumbotron {
+  padding-top: 20px;
+  padding-bottom: 400px;
+  min-width: 600px;
+  margin-bottom: 0;
+  background-image: url('../img/dog_about2.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+#about .jumbotron p{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  color: black;
+  margin-bottom: 1em;
+  margin-left: 170px;
+  font-style: normal;
+  text-align: center;
+  max-width: 400px;
+  text-shadow: 1.5px 2px 2.5px #eee;
+}
+
+#about .container {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#about h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: rgba(29, 122,140);
+    font-weight: normal;
+    font-size: 40px;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+  }
+
+#about p{
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 20px;
+line-height: 30px;
+padding-top: 2em;
+padding-bottom: 1em;
+padding-left: 1em;
+padding-right: 1em;
+}
+
+#about .image-blurred-edge {
+    box-shadow: 0 0 8px 8px #eee inset;
+}
