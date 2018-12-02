@@ -1,6 +1,7 @@
 body {
   background-color: #eee;
   text-align: center;
+  color: black;
 }
 
 h2 {
@@ -99,7 +100,7 @@ margin: 1px;
   font-family: 'Barlow Condensed', sans-serif;
   font-size:19px;
   color:#FFFFFF;
-  margin-right:10px;
+  margin-right: 2px;
 }
 .navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   background-color: rgba(254, 254, 254, 0.5);
@@ -290,7 +291,7 @@ margin-top: 10%;
 }
 
 #places .img-rounded {
-width: 700px;
+width: 600px;
 height: 400px;
 }
 
@@ -380,37 +381,37 @@ padding-right: 1em;
 }
 
 
-#about h1{
-font-family: 'Barlow Condensed', sans-serif;
-  font-weight: bolder;
-  font-size: 80px;
-  margin-bottom: 0.5em;
-  margin-top:1.80em;
-  margin-left: 150px;
-  font-style: normal;
-  text-align: left;
-  text-shadow: 3px 4px 5px #eee;
-}
-
-
-
 #about .jumbotron {
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 400px;
   min-width: 600px;
   margin-bottom: 0;
-  background-image: url('../img/dog_about2.jpg');
+  background-image: url('../img/dog.jpg');
   background-size:cover;
   background-attachment:fixed;
 }
 
+#about h1{
+font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+  margin-bottom: 0.2em;
+  margin-top: 2em;
+  margin-left: 100px;
+  font-style: normal;
+  text-align: center;
+  text-shadow: 3px 4px 5px #eee;
+}
+
 #about .jumbotron p{
   font-family: 'Barlow Condensed', sans-serif;
+  spacing: 10em;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 28px;
   color: black;
   margin-bottom: 1em;
-  margin-left: 170px;
+  margin-top: 1em;
+  margin-left: 400px;
   font-style: normal;
   text-align: center;
   max-width: 400px;
