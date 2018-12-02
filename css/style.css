@@ -1,0 +1,279 @@
+body {
+  background-color: #eee;
+  text-align: center;
+
+}
+h2 {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    height: 55px;
+}
+.navbar-default .navbar-nav>ul {
+    margin-right: 30px;
+    width: 100%;
+    background-color: #999;
+    height: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size:19px;
+  color:#FFFFFF;
+  margin-right:10px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: rgba(254, 254, 254, 0.5);
+  color: rgba(0, 0, 0);
+  font-weight: bolder;
+}
+.navbar-default .navbar-brand {
+ text-transform: uppercase;
+ color: #FFFFFF;
+ font-family: 'Barlow Condensed', sans-serif;
+ font-weight: bolder;
+ font-size:21px;
+}
+.navbar-brand img {
+  position: relative;
+  height: 40px;
+  margin: 1px;
+}
+
+.scrolled{
+  background-color: rgba(29, 122,140, 0.9);
+  transition: 0.3s;
+}
+
+.jumbotron {
+  padding-top: 20px;
+  padding-bottom: 400px;
+  min-width: 600px;
+  margin-bottom: 0;
+  background-image: url('../img/Dog car window.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+#home H1{
+font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+  margin-bottom: 0.5em;
+  margin-top:1.80em;
+  margin-left: 150px;
+  font-style: normal;
+  text-align: left;
+  text-shadow: 3px 4px 5px #eee;
+
+}
+#home p{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  color: black;
+  margin-bottom: 1em;
+  margin-left: 170px;
+  font-style: normal;
+  text-align: center;
+  max-width: 400px;
+  text-shadow: 1.5px 2px 2.5px #eee;
+}
+
+blockquote{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5em;
+  max-width: 600em;
+  margin-bottom: 3em;
+}
+
+blockquote>footer{
+  font-family: 'Barlow Condensed', sans-serif;
+  fonnt-color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 3em;
+}
+p{
+  padding-top:15px;
+  padding-bottom: auto;
+  line-height: 1.5;
+  font-weight: normal;
+  font-size: 18px;
+
+}
+.places{
+  margin-top: 2em;
+  background-image:url('../img/dog on beach 2.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.thumbnail {
+height: 500px;
+width: 100%;
+}
+
+.thumbnail img {
+  height:250px;
+  width: 100%;
+}
+
+#myCarousel {
+  background-color: #343148
+  margin-top: 20px;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.tips{
+	margin: 20px;
+}
+.fa-chevron-left,.fa-chevron-right{
+padding-top:125%;
+}
+#lab_social_icon_footer {
+  padding: 20px 0;
+  background-color: #dedede;
+}
+
+#lab_social_icon_footer a {
+  color: #333;
+}
+
+/* Places */
+
+#places {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+#places h2 {
+  text-transform: uppercase;
+  font-size: 53px;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+
+}
+#places h4 {
+  font-size: 50px;
+}
+
+#places p {
+  font-size: 20px;
+  line-height: 38px;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#places .img-rounded {
+width: 700px;
+height: 400px;
+}
+
+#places .col-container {
+  height: 610px;
+
+}
+
+#places .btn-primary {
+      background: rgba(29, 122,140);
+      text-transform: uppercase;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size:19px;
+      color:#FFFFFF;
+      font-weight: normal;
+      border: none;
+      letter-spacing: 0.04em;
+      position: relative;
+      bottom: 15px;
+      text-align: center;
+
+    }
+
+#places .btn-primary:hover
+    {
+        box-shadow: 0px 0px 40px #000000;
+        z-index: 2;
+        -webkit-transition: all 100ms ease-in;
+        -webkit-transform: scale(1.2);
+        -ms-transition: all 40ms ease-in;
+        -ms-transform: scale(1.2);
+        -moz-transition: all 40ms ease-in;
+        -moz-transform: scale(1.2);
+        transition: all 40ms ease-in;
+        transform: scale(1.2);
+        background-color: rgba(254, 254, 254, 0.5);
+        color: rgba(0, 0, 0);
+        font-weight: bolder;
+    }
+
+/*Things to do - home page*/
+
+#activities {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+
+#activities .img-rounded {
+  width: 600px;
+  height: 350px;
+  align-content: center;
+  }
+
+#activities h2 {
+    font-size: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+  }
+
+#activities h4 {
+  font-size: 40px;
+}
+
+#activities p {
+font-size: 20px;
+line-height: 30px;
+padding-top: 2em;
+padding-bottom: 1em;
+padding-left: 1em;
+padding-right: 1em;
+}
+
+#activities .col-container {
+  height: 350px;
+
+}
+
+#activities .btn-primary {
+      background: rgba(29, 122,140);
+      text-transform: uppercase;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size:19px;
+      color:#FFFFFF;
+      font-weight: normal;
+      border: none;
+      letter-spacing: 0.04em;
+      position: relative;
+      bottom: 15px;
+      text-align: center;
+
+    }
