@@ -190,7 +190,7 @@ blockquote>footer{
   margin-top: 3em;
 }
 .places{
-  height: 60em;
+  height: 70em;
   margin-top: 2em;
   background-image:url('../img/dog on beach 2.jpg');
   background-size:cover;
@@ -220,6 +220,10 @@ width: 100%;
 }
 #tips hr{
   padding-bottom: 50px;
+}
+
+#tips{
+  padding-top: 20px;
 }
 .fa-chevron-left,.fa-chevron-right{
 padding-top:125%;
@@ -351,7 +355,6 @@ height: 400px;
   font-family: 'Barlow Condensed', sans-serif;
   text-align: center;
   padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 #activities .img-responsive {
@@ -372,7 +375,6 @@ height: 400px;
 #activities p {
 font-size: 20px;
 line-height: 30px;
-padding-bottom: 2em;
 padding-left: 1em;
 padding-right: 1em;
 }
