@@ -7,7 +7,7 @@ body {
 h2 {
   text-align: center;
   padding-top: 2em;
-  padding-bottom: 1.5em;
+  padding-bottom: 10px;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 53px
 }
@@ -19,7 +19,11 @@ h4{
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 20px;
 }
-
+hr{
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #1D7A8C;
+}
 p{
   font-family: 'Barlow Condensed', sans-serif;
   padding-top:15px;
@@ -28,7 +32,6 @@ p{
   font-weight: normal;
   font-size: 18px;
 }
-
 .navbar-default {
 background-color: transparent;
 border-color: transparent;
@@ -185,6 +188,7 @@ blockquote>footer{
   margin-top: 3em;
 }
 .places{
+  height: 60em;
   margin-top: 2em;
   background-image:url('../img/dog on beach 2.jpg');
   background-size:cover;
@@ -192,6 +196,7 @@ blockquote>footer{
 }
 
 .thumbnail {
+margin-top: 4em;
 height: 500px;
 width: 100%;
 }
@@ -211,8 +216,8 @@ width: 100%;
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
 }
-.tips{
-	margin: 20px;
+#tips hr{
+  padding-bottom: 50px;
 }
 .fa-chevron-left,.fa-chevron-right{
 padding-top:125%;
@@ -224,7 +229,11 @@ padding-top:125%;
  background-image: none;
  box-shadow: none;
 }
-
+#contactus img{
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 15%;
+}
  .countries{
  margin-left: 5%;
  margin-right: 5%;
@@ -251,11 +260,11 @@ margin-top: 25%;
 margin-bottom: 70px;
 }
 
-#socialmedia{
+#social{
 padding-top: 20px;
 }
 
-#socialmedia a{
+#social a{
 color: #1D7A8C;
 }
 
@@ -423,6 +432,7 @@ font-family: 'Barlow Condensed', sans-serif;
   padding-bottom: 90px;
 }
 
+
 #about h3{
     font-family: 'Barlow Condensed', sans-serif;
     color: rgba(29, 122,140);
@@ -445,6 +455,14 @@ padding-right: 1em;
 #about .image-blurred-edge {
     box-shadow: 0 0 8px 8px #eee inset;
 }
+
+.explore{
+  height: 35em;
+  background-image:url('../img/hotel_sitges.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
 
 #footer .navbar-default {
   background-color: transparent;
