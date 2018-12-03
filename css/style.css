@@ -119,6 +119,8 @@ margin: 1px;
  font-weight: bolder;
  font-size:21px;
 }
+
+
 .navbar-brand img {
   position: relative;
   height: 40px;
@@ -460,7 +462,7 @@ padding-right: 1em;
 
 .explore{
   height: 35em;
-  background-image:url('../img/hotel_sitges.jpg');
+  background-image:url('../img/places2.jpg');
   background-size:cover;
   background-attachment:fixed;
 }
